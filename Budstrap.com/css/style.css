@@ -1,0 +1,86 @@
+body
+{
+    background: #3E859B;
+}
+.link
+{
+    text-decoration: none;
+    text-align: right;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+p{
+    margin: 25px;
+    color: rgba(32, 32, 32, 0.685);
+    text-decoration: none;
+    transition: 1s;
+    text-align: right;
+}
+p:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.baslik
+{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: 75px;
+    color: white;
+    font-family: Lucida Handwriting;
+    display: flex;
+    justify-content: right;
+    
+}
+.baslik2
+{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 180px;
+}
+.learn
+{
+    width: 94px;
+    height: 31px;
+    color: white;
+    background: #82b440;
+    box-shadow: 0 2px 0 #82b440;
+    padding-left: 5px;
+    padding-top: 2px;
+    border-radius: 8%;
+    position: relative;
+    left: 500px;
+    margin-top: 40px;
+
+}
+p
+{
+    color: white;
+}
+@media only screen and (max-width: 600px)
+{
+    .learn
+    {
+        position: relative;
+        left: 200px;
+        margin-top: 40px;
+    }
+    .baslik
+    {
+        position: relative;
+        left: 170px;
+    }
+    .link 
+    {
+        position: relative;
+        top: 60px;
+        text-align: center ;
+    }
+}
